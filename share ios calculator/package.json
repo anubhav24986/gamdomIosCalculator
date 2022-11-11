@@ -1,0 +1,23 @@
+{
+  "name": "ioscalculator",
+  "version": "1.0.0",
+  "description": "ios calculator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-backend":"cd api && npm start " ,
+    "start-frontend": "cd calculator && npm start ",
+    "start": "npm run start-backend & npm run start-frontend",
+    "install":"(cd api && npm install) & (cd calculator && npm install) "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anubhav24986/iosCalculator.git"
+  },
+  "author": "anubhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anubhav24986/iosCalculator/issues"
+  },
+  "homepage": "https://github.com/anubhav24986/iosCalculator#readme"
+}
